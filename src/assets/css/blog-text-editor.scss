@@ -1,0 +1,40 @@
+.blog-text-editor-w {
+  position: relative;
+  .blog-text-editor-helper-c {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 20%;
+    .blog-text-editor-heading-c {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #6c757d;
+      border-radius: .2rem;
+      .heading-2 {
+        font-size: 2rem;
+      }
+      .heading-3 {
+        font-size: 1.75rem;
+      }
+      .heading-5 {
+        font-size: 1.25rem;
+      }
+      button {
+        padding: 2px 0 0 0;
+        font-size: 16px;
+        width: 27px !important;
+        height: 27px !important;
+        border: none;
+      }
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  button {
+    width: 30px;
+    height: 30px;
+    color: black !important;
+    background-color: #FFFFFF !important;
+  }
+}

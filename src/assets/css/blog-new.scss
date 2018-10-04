@@ -1,0 +1,39 @@
+.blog-new-w {
+  width: 100%;
+  .blog-new-form-tag-c {
+    border: solid 1px #ced4da;
+    border-radius: 0.25rem;
+    height: calc(2.25rem + 2px);;
+    padding: 0.375rem 0.75rem;
+    .tag-span {
+      background-color: #4374D9;
+      border-radius: .25rem;
+      color: #FFFFFF;
+      float: left;
+      padding: 1px;
+      margin: 0 3px;
+    }
+    input {
+      border: 0;
+      margin-left: 5px;
+    }
+    input:focus {
+      outline: none;
+    }
+  }
+  .blog-new-c {
+    width: 50%;
+    form {
+      position: relative;
+      top: 50px;
+      .blog-new-nav-c {
+        position: fixed;
+        right: 100px;
+        top: 10px;
+        a, button {
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
